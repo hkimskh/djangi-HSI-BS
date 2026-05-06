@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Beranda{% endblock %}
+{% block page_title %}⚔️ HSI Boarding School ⚔️{% endblock %}
+{% block subtitle %}Website Profil Santri Digital Samurai{% endblock %}
+
+{% block content %}
+
+
+<section class="hero">
+
+    <div class="japanese-text">武士道</div>
+
+    <h2>Selamat Datang, Pejuang Ilmu</h2>
+
+    <p>
+        Ini bukan sekadar website biasa.  
+        Ini adalah ruang digital yang menampilkan perjalanan,
+        karya, dan semangat para santri dalam menuntut ilmu
+        serta menguasai teknologi di era modern.
+    </p>
+
+    <div class="quote-box">
+        “Seorang samurai menjaga pedangnya,  
+        seorang santri menjaga ilmunya.”
+    </div>
+
+    <a href="{% url 'santri_home' %}" class="btn-enter">⛩️ Masuk Ke Profil Santri</a>
+
+</section>
+
+{% endblock %}

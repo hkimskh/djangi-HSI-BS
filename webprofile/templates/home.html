@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Portfolio Siswa{% endblock %}
+
+{% block page_title %}⚔️ Portfolio Project Siswa ⚔️{% endblock %}
+
+{% block subtitle %}Kumpulan karya digital para pejuang ilmu{% endblock %}
+
+{% block content %}
+
+
+<section class="box">
+
+    <div class="japan-symbol">侍</div>
+
+    <h3 class="section-title">DAFTAR PROJECT DIGITAL</h3>
+
+    <div class="project-card">
+        <h4>🌸 Website Profile Santri</h4>
+        <p>
+            Sebuah website profile siswa yang dibangun menggunakan 
+            framework Django templating dengan nuansa modern dan interaktif.
+        </p>
+        <a href="{% url 'santri_home' %}" class="btn-samurai">Masuk ke Website</a>
+    </div>
+
+    <div class="project-card">
+        <h4>🏯 Website Slicing</h4>
+        <p>
+            Project slicing UI/UX modern bertema Japanese minimalist.
+            Akan segera hadir dengan tampilan lebih menawan.
+        </p>
+        <a href="#" class="btn-samurai">Coming Soon</a>
+    </div>
+
+</section>
+
+{% endblock %}
